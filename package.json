@@ -2,7 +2,6 @@
   "name": "namaste_react",
   "version": "1.0.0",
   "description": "this is  namaste react by akshay saini",
-  "main": "App.js",
   "scripts": {
     "test": "jest"
   },
@@ -21,5 +20,12 @@
   "homepage": "https://github.com/prabhanjansp/namaste_react#readme",
   "devDependencies": {
     "parcel": "^2.16.0"
-  }
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "browserslist": [
+    "last 2 Chrome version"
+  ]
 }
