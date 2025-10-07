@@ -351,10 +351,10 @@ const resList = [
       areaName: "Parasia Road",
       costForTwo: "₹200 for two",
       cuisines: ["South Indian", "Snacks", "Pizzas", "Burgers"],
-      avgRating: 5,
+      avgRating: 3.8,
       veg: true,
       parentId: "429054",
-      avgRatingString: "5.0",
+      avgRatingString: "3.8",
       totalRatingsString: "<3",
       sla: {
         deliveryTime: 73,
