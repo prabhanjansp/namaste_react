@@ -19,3 +19,12 @@
 - HTTPS host
 - Tree Shaking
 - Different dev and production build
+
+Two Types of Export/Import
+- Default Export/Import
+- import component from "path";
+
+
+Named Export/Import
+- export const Component
+-  import {} from the path
