@@ -1,6 +1,8 @@
+import { useState } from "react";
 import { LOGO_URL } from "../utils/constants";
 
 const HeaderComponent = () => {
+  const [btn,setbtn]=useState("login")
   return (
     <div className="header">
       <div>
@@ -14,6 +16,9 @@ const HeaderComponent = () => {
           <li>About us</li>
         </ul>
       </div>
+      <button className="login-btn" onClick={()=>{
+        btn==='login'?setbtn("logout"):setbtn("login")
+      }}>{btn}</button>
     </div>
   );
 };
