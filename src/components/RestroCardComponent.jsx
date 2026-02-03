@@ -8,7 +8,7 @@ const RestroCardComponent = (props) => {
     cuisines,
     avgRating,
     costForTwo,
-    deliveryTime,
+    sla,
   } = resObj?.info;
   const card={
     backgroundColor:"#f0f0f0",
@@ -24,7 +24,7 @@ const RestroCardComponent = (props) => {
       <h4>{cuisines.join(",")}</h4>
       <h4>{avgRating} stars</h4>
       <h4>{costForTwo}</h4>
-      <h4>{resObj.info.sla.deliveryTime}min</h4>
+      <h4>{sla?.deliveryTime}min</h4>
     </div>
   );
 };
