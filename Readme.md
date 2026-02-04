@@ -34,3 +34,7 @@ Named Export/Import
 - useState() superpower full variable in react
 - useEffect()
 
+# there are 2 types routing
+-1 clinet side routing
+server side routing
+
